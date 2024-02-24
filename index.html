@@ -4,14 +4,23 @@
   <head>
     <link rel="stylesheet" href="style.css">
     <title>inconfessio</title>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script> -->
     <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/addons/p5.dom.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.js"></script>
     <script src="p5.js"></script>
   </head>
+
   <body>
-    <main>
-    </main>
+  <!-- <main> -->
+  <!-- </main> -->
+    <!-- <div id="canvasForHTML"></div> -->
     <!-- <textarea id="caixaDeTexto" name="caixaDeTexto" placeholder="confessio..."></textarea> -->
+
   </body>
+  <script src="https://unpkg.com/hydra-synth"></script>
+    <script>
+          // create a new hydra-synth instance
+          var hydra = new Hydra({ detectAudio: false });
+          osc(4, 0.1, 1.2).out();
+    </script>
 </html>
