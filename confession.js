@@ -46,7 +46,7 @@ function windowResized() {
 }
 
 function draw(){
-    background(0);
+    background(255);
     textSize(windowWidth/64);
     textAlign(CENTER);
     if (animation>=0) {
