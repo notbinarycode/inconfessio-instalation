@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    display: block;
+}
+
+
+#confession {
+    background-color:black;
+    color: red;
+    border-color: red;
+    outline: red;
+    opacity: 1;
+    transition: opacity, 3s;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
